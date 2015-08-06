@@ -12,13 +12,13 @@ return [
 	| as the size rules. Feel free to tweak each of these messages here.
 	|
 	*/
-
+	"alpha_spaces" 		   => "El campo :attribute solo debe contener letras y espacios",
 	"accepted"             => "The :attribute must be accepted.",
 	"active_url"           => "The :attribute is not a valid URL.",
 	"after"                => "The :attribute must be a date after :date.",
-	"alpha"                => "The :attribute may only contain letters.",
+	"alpha"                => "El :attribute solo debe contener letras.",
 	"alpha_dash"           => "The :attribute may only contain letters, numbers, and dashes.",
-	"alpha_num"            => "The :attribute may only contain letters and numbers.",
+	"alpha_num"            => "El :attribute solo debe contener letras y numeros.",
 	"array"                => "The :attribute must be an array.",
 	"before"               => "The :attribute must be a date before :date.",
 	"between"              => [
@@ -29,7 +29,7 @@ return [
 	],
 	"boolean"              => "The :attribute field must be true or false.",
 	"confirmed"            => "The :attribute confirmation does not match.",
-	"date"                 => "The :attribute is not a valid date.",
+	"date"                 => "El :attribute no es una fecha valida.",
 	"date_format"          => "The :attribute does not match the format :format.",
 	"different"            => "The :attribute and :other must be different.",
 	"digits"               => "The :attribute must be :digits digits.",
@@ -55,9 +55,9 @@ return [
 		"array"   => "The :attribute must have at least :min items.",
 	],
 	"not_in"               => "The selected :attribute is invalid.",
-	"numeric"              => "The :attribute must be a number.",
+	"numeric"              => "El :attribute tiene que ser un numero.",
 	"regex"                => "The :attribute format is invalid.",
-	"required"             => "The :attribute field is required.",
+	"required"             => "El campo :attribute debe estar lleno.",
 	"required_if"          => "The :attribute field is required when :other is :value.",
 	"required_with"        => "The :attribute field is required when :values is present.",
 	"required_with_all"    => "The :attribute field is required when :values is present.",

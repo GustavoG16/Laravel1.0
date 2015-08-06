@@ -1,7 +1,6 @@
-@extends('Layout.layoutadmin')
+@extends('Layout.administrador')
 
 @section('contenido')
-
         <!-- Page Content -->
         <div id="page-wrapper" style="min-height: 586px;">
             <div class="container-fluid">
@@ -39,5 +38,4 @@
     </div>
 
     <!-- /#wrapper -->
-
-    @stop
+@stop

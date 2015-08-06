@@ -1,9 +1,9 @@
 <?php namespace App\Http\Controllers;
-
-//use Illuminate\Http\Request;//para usarlo como inyeccion de dependencias  
-use Auth; //???
+ 
+use Auth; 
 use Request;  
-use App\Http\Requests\LoginForm;//añadimos nuestro validador
+use App\Http\Requests\LoginRequest;//validador
+
 
 class LoginController extends Controller {
 
@@ -18,13 +18,13 @@ class LoginController extends Controller {
             );
 
 
-          if(Auth::attempt($datos))//comprueba si existe ese user y password en la bd
+          if(Auth::attempt($datos))
           {        
             
-               $status = Auth::user()->name;  //auth???
+               $status = Auth::user()->name;  
               
-                if($status == 'roberto')
-                { //check if user account is enabled
+                if($status == 'gustavo')
+                { 
             
                    return redirect()->intended('dashboard');
                 }
@@ -64,4 +64,19 @@ class LoginController extends Controller {
     } */
   }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          
 

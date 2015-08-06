@@ -14,7 +14,7 @@ class EncargadoCampusController extends Controller {
 	 */
 	public function index()
 	{
-		return view ('EncargadoCampus.index');
+		return view('EncargadoCampus.bienvenidoEncargadosCampus');
 	}
 
 	/**
@@ -45,7 +45,7 @@ class EncargadoCampusController extends Controller {
 	 */
 	public function show($id)
 	{
-		//
+		return view('EncargadoCampus.ajustesSalas');
 	}
 
 	/**
@@ -79,6 +79,16 @@ class EncargadoCampusController extends Controller {
 	public function destroy($id)
 	{
 		//
+	}
+
+	public function asignacion()
+	{
+		return view('EncargadoCampus.asignarAulas');
+	}
+
+	public function datos()
+	{
+		return view('EncargadoCampus.ingresarDatos');
 	}
 
 }
